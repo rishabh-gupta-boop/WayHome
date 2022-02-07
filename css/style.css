@@ -9,16 +9,24 @@
 .inner-cover{
     
     position: relative;
-    width: 100%;
-    background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)) , url("../images/cover.jpg");
-    background-repeat: no-repeat center;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat bottom;
     font-family: 'Rubik', sans-serif;
-}
-
-.pickup-form{
+    
     
 }
 
+.inner-cover .pickup-form{
+    
+    background-color: white;
+}
+
+.inner-cover .pickup-form .pickup-form-btn .btn1{
+    border: 1px solid black;
+    border-radius: 30px;
+    
+    
+}
 
 .center{
     justify-content: center;
